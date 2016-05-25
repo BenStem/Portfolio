@@ -2,15 +2,69 @@
 <html>
 	<head>
 		<title></title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<style>
+			body{
+			background-color: #00e6e6;
+			margin-left: 50px;
+			margin-right: 50px;
+			}
+			li{
+			background-color: #66ffb3;
+			}
+			li:active{
+			background-color: #66ffb3
+			}
 		</style>
 		<script>
-		
+			alert("The page may take a few seconds to load. Click OK to see the webpage.");
 		</script>
 	</head>
 	<body>
-	<video controls>
-	<source src="https://github.com/BenStem/Portfolio/Portfolio animation.mp4" type="video/mp4"></source>
-	</video>
+		<div align="center"><video width="400px" autoplay>
+			<source src="https://benstem.github.io/Portfolio/PortfolioAnimation.mp4" type="video/mp4"></source>
+		</video></div>
+		<div class="moo">
+			<ul class="nav nav-pills">
+			<li class="active"><a data-toggle="pill" href="#1">Home</a></li>
+			<li><a data-toggle="pill" href="#2">Image Manipulation</a></li>
+			<li><a data-toggle="pill" href="#3">3d Modeling</a></li>
+			<li><a data-toggle="pill" href="#4">Hardware Chart</a></li>
+			<li><a data-toggle="pill" href="#5">Unreal Project</a></li>
+		  </ul>
+		  <div class="tab-content">
+		  <div id="1" class="tab-pane fade in active">
+			  <h2>HOME</h2>
+			  <p style="font-size: 20px;">Welcome to my technology portfolio. This shows the things I worked on over the semester! I learned how to manipulate images with Gimp. 3d modeling was also covered. I learned how to make 3d models like a teddy bear, acoffee cup, a snowman, a ring and anything else that can be done with the material in the tutorials for Blender. I worked in Unreal Engine 4, although there was an atmosphere glitch which prevented me from following along. The last course was Javascipt. It was rushed, so I don't know a lot. However, I know how to make messages pop up. Checkout the portfolio for the things I've created. Make sure everything has loaded!</p>
+			</div>
+			<div id="2" class="tab-pane fade">
+			  <h2>Image Manipulation</h2>
+			  <div align="center"><img src="https://raw.githubusercontent.com/BenStem/Portfolio/gh-pages/Michael%20Vey.png" height="720px" /></div>
+				<div align="center"><img src="https://github.com/BenStem/Portfolio/raw/gh-pages/Potato.png" height="720px" /></div>
+			<div align="center"><img src="https://github.com/BenStem/Portfolio/raw/gh-pages/Star%20Wars.png" height="720px" /></div>
+			</div>
+			<div id="3" class="tab-pane fade">
+			  <h2>3d Modeling</h2>
+			  <div align="center"><img src="https://github.com/BenStem/Portfolio/raw/gh-pages/CoffeeCup.png" height="720px" /></div>
+			<div align="center"><img src="https://github.com/BenStem/Portfolio/raw/gh-pages/Teddybear.png" height="720px" /></div>
+			<div align="center"><img src="https://github.com/BenStem/Portfolio/raw/gh-pages/Ring%20(1).png" height="720px" /></div>
+			</div>
+			<div id="4" class="tab-pane fade">
+			  <h2>Hardware Chart</h2>
+			  <div align="center"><img src="https://github.com/BenStem/Portfolio/raw/gh-pages/untitled.png" height="720px" /></div>
+			<div align="center"><img src="https://github.com/BenStem/Portfolio/raw/gh-pages/Diagram1.png" height="720px" /></div>
+			</div>
+			<div id="5" class="tab-pane fade">
+			  <h2>Unreal Project</h2>
+			 <div align="center"><img src="https://github.com/BenStem/Portfolio/raw/gh-pages/Snowman%20imports.png" height="720px" /></div>
+			<div align="center"><img src="https://github.com/BenStem/Portfolio/raw/gh-pages/PreBuiltModels.png" height="720px" /></div>
+			</div>
+			</div>
+		</div>
 	</body>
 </html>
